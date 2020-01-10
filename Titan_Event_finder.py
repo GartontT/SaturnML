@@ -17,7 +17,7 @@ import pandas as pd
 #=====Read in catalogue of Titan flybys and Cassini data=====#
 Titan_flybys = pd.read_csv("Events/Titan_Flyby_catalogue.txt", sep = "\t", 
                          header = 7)
-Cass_data = pd.read_csv("Cassini_Observations/06001T000031_06365T235931_mrdcd_sdfgmc_krtp_1m.txt", 
+Cass_data = pd.read_csv("Cassini_Observations/Cass_data.txt", 
                         sep = "\t", header = 457)
 
 #=====Convert date component of pandas arrays to datetime objects=====#
