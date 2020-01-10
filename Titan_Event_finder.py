@@ -12,12 +12,16 @@ with all Titan flyby intervals highlighted in red
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import numpy as np
+import os
 import pandas as pd
 
+#=====Identifies directory path to this script=====#
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
 #=====Read in catalogue of Titan flybys and Cassini data=====#
-Titan_flybys = pd.read_csv("Events/Titan_Flyby_catalogue.txt", sep = "\t", 
+Titan_flybys = pd.read_csv(dir_path + "/Events/Titan_Flyby_catalogue.txt", sep = "\t", 
                          header = 7)
-Cass_data = pd.read_csv("Cassini_Observations/Cass_data.txt", 
+Cass_data = pd.read_csv(dir_path + "/Cassini_Observations/Cass_data.txt", 
                         sep = "\t", header = 457)
 
 #=====Convert date component of pandas arrays to datetime objects=====#
