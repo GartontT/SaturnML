@@ -5,6 +5,7 @@
 #        Year: 2015
 #        Journal: Physics Reports, vol 602
 #-------------------------------------------------------------------------------------
+Flyby	SLT(h)	EventTime(UTC)	Alt.(km)	Long.(deg)	Lat.(deg)	Vx	Vy	Vz	V(km/s)	Description
 aTI(TA)	10.6	2004 OCT 26 (300), 15:30:04	1174.1	87.7	38.7	-1.3	5.8	1.3	6.1	inb, northb, wake
 bTI(TB)	10.5	2004 DEC 13 (348), 11:38:15	1192.3	83.3	59.0	-1.9	5.7	0.7	6.1	inb, northb, wake
 cTI(TC)	10.5	2005 JAN 14 (014), 11:11:58	60003.3	251.1	0.1	-1.7	5.1	0.3	5.4	inb, northb, upstr.
