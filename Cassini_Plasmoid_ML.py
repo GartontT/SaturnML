@@ -58,6 +58,7 @@ t_post_event = 0
 batch_size = 128
 num_classes = 2
 epochs = 10
+hidden_layer_nodes_1=50
 
 # initialize an empty list for the ML input data
 Cass_ML_input = []
@@ -154,7 +155,7 @@ model.add(Flatten())
 
 # Create a hidden layer of size N=1000, calculations use the "relu" activation
 # function
-model.add(Dense(50, activation='relu'))
+model.add(Dense(hidden_layer_nodes_1, activation='relu'))
 
 # Create an output layer  of size N=num_classes, calculations use the "softmax"
 # activation function
